@@ -1,11 +1,19 @@
-import './navbar.css'
+import './Navbar.css'
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>
-      
-    </div>
+   <div className='navbar'>
+    <div className='navlogo'>EV-olution</div>
+    <ul className='navmenu'>
+      <li>Home</li>
+      <li>Explore</li>
+      <li>About</li>
+      <li className='navcontact'>Contact</li>
+
+    </ul>
+
+   </div>
   )
 }
 
-export default navbar
+export default Navbar
