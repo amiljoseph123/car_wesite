@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react";
 import Background from './components/Background/Background.JSX'; 
 // import Navbar from "./components/Navbar/Navbar.jsx";
-import Navbar from './components/Navbar/Navbar.jsx';
+import Navbar from './components/Navbar/Navbar';
 
 
 const App = () => {
@@ -21,9 +21,9 @@ const App = () => {
 
   return (
     <div>
+     
       <Background playStatus={playStatus} heroCount={heroCount}/>
-
-      <Navbar /> 
+       <Navbar /> 
     </div>
   )
 }
