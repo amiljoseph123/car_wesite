@@ -17,9 +17,9 @@ const hero = ({heroData, setHeroCount, heroCount , setPlayStatus, playStatus}) =
       </div>
       <div className="heroplay"></div>
       <ul className='herodots'>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li onClick={()=>setHeroCount(0)} className={heroCount===0?"herodot orange":"herodot"}></li>
+        <li onClick={()=>setHeroCount(1)}  className={heroCount===1?"herodot orange":"herodot"}></li>
+        <li onClick={()=>setHeroCount(2)}  className={heroCount===2?"herodot orange":"herodot"}></li>
       </ul>
     </div>
   )
