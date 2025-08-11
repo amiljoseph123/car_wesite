@@ -3,6 +3,9 @@ import { useState } from "react";
 import Background from './components/Background/Background.JSX'; 
 // import Navbar from "./components/Navbar/Navbar.jsx";
 import Navbar from './components/Navbar/Navbar';
+// import Hero from './components/Hero/Hero.jsx';
+import Hero from './components/Hero/Hero.jsx';
+
 
 
 const App = () => {
@@ -24,7 +27,7 @@ const App = () => {
      
       <Background playStatus={playStatus} heroCount={heroCount}/>
        <Navbar /> 
-       <hero
+       <Hero
        setPlayStatus={setPlayStatus}
        heroData={heroData[heroCount]}
        heroCount={heroCount}
