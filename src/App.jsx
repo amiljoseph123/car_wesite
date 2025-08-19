@@ -13,9 +13,10 @@ const App = () => {
  
 
   let heroData = [
-  { text1: "Dive into", text2: " What you love" },
-  { text1: "Dive into", text2: " What you love" },
-  { text1: "Dive into", text2: " What you love" }
+  // { text1: "Dive into", text2: " What you love" },
+  { text1: "Drive Beyond", text2: "Boundaries" },
+   { text1: "Where Every Drive", text2: "Tells a Story" },
+    { text1: "Elevate Your", text2: "Driving Experience" },
 ]
 
   const [heroCount,setHeroCount] = useState(0);
