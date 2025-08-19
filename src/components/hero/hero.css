@@ -35,6 +35,7 @@
     margin-top: 90px;
     display: flex;
     justify-content: space-between;
+    /* margin-left: 10px; */
 }
 .hero-dots{
     display: flex;
@@ -45,18 +46,38 @@
 .hero-dot{
     width: 10px;
     height: 10px;
-    background: red;
+    background: white;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
+
+    
 }
 
 
 .heroexplore img {
-    width: 38px;           /* shrink arrow image */
+    width: 38px;         
     height: auto;
 }
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+     position: absolute;
+    bottom: 40px;  
+    right: 50px;   
+}
 .hero-play img {
-    width: 38px;           /* shrink arrow image */
+    width: 38px;           
     height: auto;
+    
+}
+
+.hero-play p{
+    color: aliceblue;
+    font-size: 20px;
+
+}
+.hero-dot.orange{
+    background: aqua;
 }
